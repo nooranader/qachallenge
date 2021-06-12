@@ -1,0 +1,13 @@
+{
+  "testFiles": "**/*.{feature,features}",
+  "ignoreTestFiles": ["**/stepDefinitions/*", "*.js", "*.md"],
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportFilename": "test-report"
+  },
+  "baseUrl": "https://data.castoredc.com/",
+  "env": {
+    "username": "noorhan.nader@outlook.com",
+    "password": "somePassword"
+  }
+}
